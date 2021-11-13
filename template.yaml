@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: search-photos.lambda_handler
       Runtime: python3.7
-      CodeUri: ./Lamdbas
+      CodeUri: ./Lambdas
       Description: ''
       MemorySize: 128
       Timeout: 3
