@@ -4,7 +4,6 @@ phases:
     commands:
       - aws cloudformation package --template-file template.yaml --s3-bucket ccbdcicd --output-template-file outputsamtemplate.yaml
 artifacts:
-  type: zip
   files:
     - template.yaml
     - outputsamtemplate.yaml
